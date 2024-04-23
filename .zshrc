@@ -136,7 +136,7 @@ if [ -f "/Users/jzl/miniforge3/etc/profile.d/mamba.sh" ]; then
 fi
 # <<< conda initialize <<<
 
-PATH=~/.console-ninja/.bin:/opt/homebrew/bin:/usr/local/texlive/2023/bin/universal-darwin:$PATH
+export PATH="~/.console-ninja/.bin:/opt/homebrew/bin:/usr/local/texlive/2023/bin/universal-darwin:$PATH"
 
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse'
 
