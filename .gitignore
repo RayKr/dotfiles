@@ -1,0 +1,16 @@
+# 忽略所有文件
+*
+.DS_Store
+.config/.DS_Store
+
+# 允许查找目录，但不包含任何文件内容
+#!*/
+
+# 不忽略.gitignore文件
+!.gitignore
+
+# 不忽略.config目录及其内容
+!.config/nvim/*
+!.config/wezterm/*
+!.zshrc
+!.p10k.zsh
