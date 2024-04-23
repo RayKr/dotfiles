@@ -19,6 +19,7 @@ require("lazy").setup({
     { import = "plugins" },
     {
       "lervag/vimtex",
+      lazy = false, -- don't lazy-load this plugin
       init = function()
         -- Use init for configuration, don't use the more common "config".
       end,
